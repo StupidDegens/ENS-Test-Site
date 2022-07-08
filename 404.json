@@ -1,0 +1,80 @@
+{
+  "sections": {
+    "16547292994748ab72": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script src=\"https:\/\/widgets.coingecko.com\/coingecko-coin-price-marquee-widget.js\"><\/script>\n<coingecko-coin-price-marquee-widget  coin-ids=\"bitcoin,ethereum,eos,ripple,litecoin\" currency=\"usd\" background-color=\"#ffffff\" locale=\"en\"><\/coingecko-coin-price-marquee-widget>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the Collective",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "1654727905528f7d5f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- TradingView Widget BEGIN -->\n<div class=\"tradingview-widget-container\">\n  <div class=\"tradingview-widget-container__widget\"><\/div>\n  <div class=\"tradingview-widget-copyright\"><a href=\"https:\/\/www.tradingview.com\/markets\/cryptocurrencies\/prices-all\/\" rel=\"noopener\" target=\"_blank\"><span class=\"blue-text\">Cryptocurrency Markets<\/span><\/a> by TradingView<\/div>\n  <script type=\"text\/javascript\" src=\"https:\/\/s3.tradingview.com\/external-embedding\/embed-widget-screener.js\" async>\n  {\n  \"width\": \"425\",\n  \"height\": \"500\",\n  \"defaultColumn\": \"overview\",\n  \"screener_type\": \"crypto_mkt\",\n  \"displayCurrency\": \"USD\",\n  \"colorTheme\": \"light\",\n  \"locale\": \"en\"\n}\n  <\/script>\n<\/div>\n<!-- TradingView Widget END -->",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165472864297b2bdfe": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- TradingView Widget BEGIN -->\n<div class=\"tradingview-widget-container\">\n  <div class=\"tradingview-widget-container__widget\"><\/div>\n  <div class=\"tradingview-widget-copyright\"><a href=\"https:\/\/www.tradingview.com\/markets\/\" rel=\"noopener\" target=\"_blank\"><span class=\"blue-text\">Financial Markets<\/span><\/a> by TradingView<\/div>\n  <script type=\"text\/javascript\" src=\"https:\/\/s3.tradingview.com\/external-embedding\/embed-widget-market-quotes.js\" async>\n  {\n  \"width\": \"425\",\n  \"height\": \"450\",\n  \"symbolsGroups\": [\n    {\n      \"name\": \"Indices\",\n      \"originalName\": \"Indices\",\n      \"symbols\": [\n        {\n          \"name\": \"FOREXCOM:SPXUSD\",\n          \"displayName\": \"S&P 500\"\n        },\n        {\n          \"name\": \"FOREXCOM:NSXUSD\",\n          \"displayName\": \"US 100\"\n        },\n        {\n          \"name\": \"FOREXCOM:DJI\",\n          \"displayName\": \"Dow 30\"\n        },\n        {\n          \"name\": \"INDEX:NKY\",\n          \"displayName\": \"Nikkei 225\"\n        },\n        {\n          \"name\": \"INDEX:DEU40\",\n          \"displayName\": \"DAX Index\"\n        },\n        {\n          \"name\": \"FOREXCOM:UKXGBP\",\n          \"displayName\": \"UK 100\"\n        }\n      ]\n    },\n    {\n      \"name\": \"Futures\",\n      \"originalName\": \"Futures\",\n      \"symbols\": [\n        {\n          \"name\": \"CME_MINI:ES1!\",\n          \"displayName\": \"S&P 500\"\n        },\n        {\n          \"name\": \"CME:6E1!\",\n          \"displayName\": \"Euro\"\n        },\n        {\n          \"name\": \"COMEX:GC1!\",\n          \"displayName\": \"Gold\"\n        },\n        {\n          \"name\": \"NYMEX:CL1!\",\n          \"displayName\": \"Crude Oil\"\n        },\n        {\n          \"name\": \"NYMEX:NG1!\",\n          \"displayName\": \"Natural Gas\"\n        },\n        {\n          \"name\": \"CBOT:ZC1!\",\n          \"displayName\": \"Corn\"\n        }\n      ]\n    },\n    {\n      \"name\": \"Bonds\",\n      \"originalName\": \"Bonds\",\n      \"symbols\": [\n        {\n          \"name\": \"CME:GE1!\",\n          \"displayName\": \"Eurodollar\"\n        },\n        {\n          \"name\": \"CBOT:ZB1!\",\n          \"displayName\": \"T-Bond\"\n        },\n        {\n          \"name\": \"CBOT:UB1!\",\n          \"displayName\": \"Ultra T-Bond\"\n        },\n        {\n          \"name\": \"EUREX:FGBL1!\",\n          \"displayName\": \"Euro Bund\"\n        },\n        {\n          \"name\": \"EUREX:FBTP1!\",\n          \"displayName\": \"Euro BTP\"\n        },\n        {\n          \"name\": \"EUREX:FGBM1!\",\n          \"displayName\": \"Euro BOBL\"\n        }\n      ]\n    },\n    {\n      \"name\": \"Forex\",\n      \"originalName\": \"Forex\",\n      \"symbols\": [\n        {\n          \"name\": \"FX:EURUSD\",\n          \"displayName\": \"EUR\/USD\"\n        },\n        {\n          \"name\": \"FX:GBPUSD\",\n          \"displayName\": \"GBP\/USD\"\n        },\n        {\n          \"name\": \"FX:USDJPY\",\n          \"displayName\": \"USD\/JPY\"\n        },\n        {\n          \"name\": \"FX:USDCHF\",\n          \"displayName\": \"USD\/CHF\"\n        },\n        {\n          \"name\": \"FX:AUDUSD\",\n          \"displayName\": \"AUD\/USD\"\n        },\n        {\n          \"name\": \"FX:USDCAD\",\n          \"displayName\": \"USD\/CAD\"\n        }\n      ]\n    }\n  ],\n  \"showSymbolLogo\": true,\n  \"colorTheme\": \"light\",\n  \"isTransparent\": false,\n  \"locale\": \"en\"\n}\n  <\/script>\n<\/div>\n<!-- TradingView Widget END -->",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "16547292994748ab72",
+    "main",
+    "newsletter",
+    "1654727905528f7d5f",
+    "165472864297b2bdfe"
+  ]
+}
