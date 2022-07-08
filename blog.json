@@ -1,0 +1,313 @@
+{
+  "sections": {
+    "1655617728d09dac43": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script src=\"https:\/\/widgets.coingecko.com\/coingecko-coin-price-marquee-widget.js\"><\/script>\n<coingecko-coin-price-marquee-widget  coin-ids=\"ethereum,uniswap,near,ripple,solana,bitcoin,cardano,chiliz,kusama,kadena,arweave,celo\" currency=\"usd\" background-color=\"#ffffff\" locale=\"en\"><\/coingecko-coin-price-marquee-widget>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1655581078165f1c0f": {
+      "type": "rich-text",
+      "blocks": {
+        "1655581078d1f2e411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "NFS",
+            "heading_size": "h0"
+          }
+        },
+        "1655581078d1f2e411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These .jpgs are NFS. Get out of here Degen!<\/p>"
+          }
+        },
+        "1655581078d1f2e411-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1655581078d1f2e411-0",
+        "1655581078d1f2e411-1",
+        "1655581078d1f2e411-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "SUBSCRIBE TO OUR EMAILS",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "16553611260048593c": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "1655361126b637d8d7-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1655361126b637d8d7-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1655361126b637d8d7-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1655361126b637d8d7-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1655361126b637d8d7-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1655361126b637d8d7-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1655361126b637d8d7-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1655361126b637d8d7-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1655361126b637d8d7-0",
+        "1655361126b637d8d7-1",
+        "1655361126b637d8d7-2",
+        "1655361126b637d8d7-3",
+        "1655361126b637d8d7-4",
+        "1655361126b637d8d7-5",
+        "1655361126b637d8d7-6",
+        "1655361126b637d8d7-7"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1655361172f9c0b7e1": {
+      "type": "image-with-text",
+      "blocks": {
+        "165536117254ba7399-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lowkey Lab #1338",
+            "heading_size": "h0"
+          }
+        },
+        "165536117254ba7399-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The .jpgs are not for sale<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "165536117254ba7399-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165536117254ba7399-0",
+        "165536117254ba7399-1",
+        "165536117254ba7399-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2E4C8758-F694-47F0-9CF5-D0768E0AE998.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "165557681394b56d89": {
+      "type": "image-with-text",
+      "blocks": {
+        "1655576813c41b028b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lowkey Lab #467",
+            "heading_size": "h0"
+          }
+        },
+        "1655576813c41b028b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Listen buddy we are not selling our .jpgs<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1655576813c41b028b-0",
+        "1655576813c41b028b-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/green.sd_eh_2b947dbd-f503-4e73-8635-d84eaef7d362.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "165558009073deb651": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165558009831b368e7": {
+      "type": "image-with-text",
+      "blocks": {
+        "1655580097a489b7c2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lowkey Lab #76",
+            "heading_size": "h0"
+          }
+        },
+        "1655580097a489b7c2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Not this one either you filthy degen.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1655580097a489b7c2-0",
+        "1655580097a489b7c2-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GoblinLab_Transparent.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "1655617728d09dac43",
+    "1655581078165f1c0f",
+    "main",
+    "newsletter",
+    "16553611260048593c",
+    "1655361172f9c0b7e1",
+    "165557681394b56d89",
+    "165558009073deb651",
+    "165558009831b368e7"
+  ]
+}
